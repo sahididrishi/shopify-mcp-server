@@ -1,0 +1,369 @@
+[
+  {
+    "id": "6001",
+    "email": "maya.thompson@example.com",
+    "firstName": "Maya",
+    "lastName": "Thompson",
+    "createdAt": "2024-05-20T12:00:00.000Z",
+    "ordersCount": 1,
+    "totalSpent": 174.96,
+    "currency": "USD",
+    "tags": [
+      "newsletter",
+      "vip"
+    ],
+    "city": "Denver",
+    "country": "United States"
+  },
+  {
+    "id": "6002",
+    "email": "liam.carter@example.com",
+    "firstName": "Liam",
+    "lastName": "Carter",
+    "createdAt": "2026-02-08T12:00:00.000Z",
+    "ordersCount": 3,
+    "totalSpent": 290.95,
+    "currency": "USD",
+    "tags": [
+      "wholesale-inquiry"
+    ],
+    "city": "Austin",
+    "country": "United States"
+  },
+  {
+    "id": "6003",
+    "email": "sofia.ramirez@example.com",
+    "firstName": "Sofia",
+    "lastName": "Ramirez",
+    "createdAt": "2025-10-12T12:00:00.000Z",
+    "ordersCount": 4,
+    "totalSpent": 1162.08,
+    "currency": "USD",
+    "tags": [],
+    "city": "San Diego",
+    "country": "United States"
+  },
+  {
+    "id": "6004",
+    "email": "ethan.brooks@example.com",
+    "firstName": "Ethan",
+    "lastName": "Brooks",
+    "createdAt": "2024-12-07T12:00:00.000Z",
+    "ordersCount": 3,
+    "totalSpent": 229.39,
+    "currency": "USD",
+    "tags": [
+      "newsletter"
+    ],
+    "city": "Seattle",
+    "country": "United States"
+  },
+  {
+    "id": "6005",
+    "email": "ava.nguyen@example.com",
+    "firstName": "Ava",
+    "lastName": "Nguyen",
+    "createdAt": "2026-01-06T12:00:00.000Z",
+    "ordersCount": 3,
+    "totalSpent": 510.41,
+    "currency": "USD",
+    "tags": [
+      "vip"
+    ],
+    "city": "Portland",
+    "country": "United States"
+  },
+  {
+    "id": "6006",
+    "email": "noah.patel@example.com",
+    "firstName": "Noah",
+    "lastName": "Patel",
+    "createdAt": "2024-09-11T12:00:00.000Z",
+    "ordersCount": 2,
+    "totalSpent": 244.08,
+    "currency": "USD",
+    "tags": [
+      "vip"
+    ],
+    "city": "Chicago",
+    "country": "United States"
+  },
+  {
+    "id": "6007",
+    "email": "isla.morrison@example.com",
+    "firstName": "Isla",
+    "lastName": "Morrison",
+    "createdAt": "2025-11-06T12:00:00.000Z",
+    "ordersCount": 4,
+    "totalSpent": 252.72,
+    "currency": "USD",
+    "tags": [
+      "newsletter"
+    ],
+    "city": "Vancouver",
+    "country": "Canada"
+  },
+  {
+    "id": "6008",
+    "email": "lucas.bennett@example.com",
+    "firstName": "Lucas",
+    "lastName": "Bennett",
+    "createdAt": "2025-10-04T12:00:00.000Z",
+    "ordersCount": 1,
+    "totalSpent": 86.87,
+    "currency": "USD",
+    "tags": [],
+    "city": "Toronto",
+    "country": "Canada"
+  },
+  {
+    "id": "6009",
+    "email": "emma.kowalski@example.com",
+    "firstName": "Emma",
+    "lastName": "Kowalski",
+    "createdAt": "2025-09-28T12:00:00.000Z",
+    "ordersCount": 2,
+    "totalSpent": 427.68,
+    "currency": "USD",
+    "tags": [
+      "newsletter",
+      "vip"
+    ],
+    "city": "Minneapolis",
+    "country": "United States"
+  },
+  {
+    "id": "6010",
+    "email": "oliver.hayes@example.com",
+    "firstName": "Oliver",
+    "lastName": "Hayes",
+    "createdAt": "2025-03-29T12:00:00.000Z",
+    "ordersCount": 4,
+    "totalSpent": 552.78,
+    "currency": "USD",
+    "tags": [
+      "newsletter",
+      "vip"
+    ],
+    "city": "Nashville",
+    "country": "United States"
+  },
+  {
+    "id": "6011",
+    "email": "chloe.fitzgerald@example.com",
+    "firstName": "Chloe",
+    "lastName": "Fitzgerald",
+    "createdAt": "2024-10-19T12:00:00.000Z",
+    "ordersCount": 2,
+    "totalSpent": 542.63,
+    "currency": "USD",
+    "tags": [],
+    "city": "Boston",
+    "country": "United States"
+  },
+  {
+    "id": "6012",
+    "email": "mason.delgado@example.com",
+    "firstName": "Mason",
+    "lastName": "Delgado",
+    "createdAt": "2026-02-24T12:00:00.000Z",
+    "ordersCount": 3,
+    "totalSpent": 544.79,
+    "currency": "USD",
+    "tags": [
+      "vip"
+    ],
+    "city": "Phoenix",
+    "country": "United States"
+  },
+  {
+    "id": "6013",
+    "email": "harper.lindqvist@example.com",
+    "firstName": "Harper",
+    "lastName": "Lindqvist",
+    "createdAt": "2024-09-19T12:00:00.000Z",
+    "ordersCount": 4,
+    "totalSpent": 353.45,
+    "currency": "USD",
+    "tags": [
+      "newsletter"
+    ],
+    "city": "Salt Lake City",
+    "country": "United States"
+  },
+  {
+    "id": "6014",
+    "email": "aiden.oconnell@example.com",
+    "firstName": "Aiden",
+    "lastName": "O'Connell",
+    "createdAt": "2024-09-11T12:00:00.000Z",
+    "ordersCount": 2,
+    "totalSpent": 335.27,
+    "currency": "USD",
+    "tags": [],
+    "city": "Dublin",
+    "country": "Ireland"
+  },
+  {
+    "id": "6015",
+    "email": "zoe.marchetti@example.com",
+    "firstName": "Zoe",
+    "lastName": "Marchetti",
+    "createdAt": "2025-07-19T12:00:00.000Z",
+    "ordersCount": 2,
+    "totalSpent": 162.94,
+    "currency": "USD",
+    "tags": [],
+    "city": "Brooklyn",
+    "country": "United States"
+  },
+  {
+    "id": "6016",
+    "email": "elijah.sandoval@example.com",
+    "firstName": "Elijah",
+    "lastName": "Sandoval",
+    "createdAt": "2025-10-24T12:00:00.000Z",
+    "ordersCount": 1,
+    "totalSpent": 99.36,
+    "currency": "USD",
+    "tags": [
+      "newsletter"
+    ],
+    "city": "Albuquerque",
+    "country": "United States"
+  },
+  {
+    "id": "6017",
+    "email": "ruby.ashworth@example.com",
+    "firstName": "Ruby",
+    "lastName": "Ashworth",
+    "createdAt": "2024-12-24T12:00:00.000Z",
+    "ordersCount": 3,
+    "totalSpent": 764.64,
+    "currency": "USD",
+    "tags": [],
+    "city": "London",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "6018",
+    "email": "jackson.beaumont@example.com",
+    "firstName": "Jackson",
+    "lastName": "Beaumont",
+    "createdAt": "2024-11-23T12:00:00.000Z",
+    "ordersCount": 3,
+    "totalSpent": 537.84,
+    "currency": "USD",
+    "tags": [
+      "wholesale-inquiry"
+    ],
+    "city": "New Orleans",
+    "country": "United States"
+  },
+  {
+    "id": "6019",
+    "email": "lily.vasquez@example.com",
+    "firstName": "Lily",
+    "lastName": "Vasquez",
+    "createdAt": "2024-07-04T12:00:00.000Z",
+    "ordersCount": 2,
+    "totalSpent": 378,
+    "currency": "USD",
+    "tags": [],
+    "city": "Miami",
+    "country": "United States"
+  },
+  {
+    "id": "6020",
+    "email": "henry.okafor@example.com",
+    "firstName": "Henry",
+    "lastName": "Okafor",
+    "createdAt": "2024-10-18T12:00:00.000Z",
+    "ordersCount": 2,
+    "totalSpent": 174.96,
+    "currency": "USD",
+    "tags": [
+      "wholesale-inquiry"
+    ],
+    "city": "Houston",
+    "country": "United States"
+  },
+  {
+    "id": "6021",
+    "email": "grace.steiner@example.com",
+    "firstName": "Grace",
+    "lastName": "Steiner",
+    "createdAt": "2025-07-04T12:00:00.000Z",
+    "ordersCount": 1,
+    "totalSpent": 408.24,
+    "currency": "USD",
+    "tags": [
+      "wholesale-inquiry"
+    ],
+    "city": "Madison",
+    "country": "United States"
+  },
+  {
+    "id": "6022",
+    "email": "caleb.whitfield@example.com",
+    "firstName": "Caleb",
+    "lastName": "Whitfield",
+    "createdAt": "2024-12-20T12:00:00.000Z",
+    "ordersCount": 3,
+    "totalSpent": 804.85,
+    "currency": "USD",
+    "tags": [
+      "newsletter",
+      "vip"
+    ],
+    "city": "Raleigh",
+    "country": "United States"
+  },
+  {
+    "id": "6023",
+    "email": "nora.espinoza@example.com",
+    "firstName": "Nora",
+    "lastName": "Espinoza",
+    "createdAt": "2024-12-02T12:00:00.000Z",
+    "ordersCount": 0,
+    "totalSpent": 0,
+    "currency": "USD",
+    "tags": [
+      "wholesale-inquiry"
+    ],
+    "city": "Sacramento",
+    "country": "United States"
+  },
+  {
+    "id": "6024",
+    "email": "owen.gallagher@example.com",
+    "firstName": "Owen",
+    "lastName": "Gallagher",
+    "createdAt": "2025-05-01T12:00:00.000Z",
+    "ordersCount": 1,
+    "totalSpent": 464.4,
+    "currency": "USD",
+    "tags": [
+      "newsletter",
+      "vip"
+    ],
+    "city": "Pittsburgh",
+    "country": "United States"
+  },
+  {
+    "id": "6025",
+    "email": "stella.baptiste@example.com",
+    "firstName": "Stella",
+    "lastName": "Baptiste",
+    "createdAt": "2025-09-12T12:00:00.000Z",
+    "ordersCount": 4,
+    "totalSpent": 238.14,
+    "currency": "USD",
+    "tags": [
+      "newsletter",
+      "vip"
+    ],
+    "city": "Montreal",
+    "country": "Canada"
+  }
+]

@@ -1,0 +1,1444 @@
+[
+  {
+    "id": "8001",
+    "title": "Summit Seamless Leggings",
+    "handle": "summit-seamless-leggings",
+    "description": "High-rise seamless leggings with four-way stretch and a no-slip waistband. Squat-proof fabric that wicks sweat through the longest sessions.",
+    "productType": "Leggings",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "womens",
+      "leggings",
+      "seamless",
+      "bestseller"
+    ],
+    "createdAt": "2026-01-30T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90001",
+        "title": "XS",
+        "sku": "AA-LEG-SUM-XS",
+        "price": 68,
+        "compareAtPrice": 84,
+        "inventoryQuantity": 36
+      },
+      {
+        "id": "90002",
+        "title": "S",
+        "sku": "AA-LEG-SUM-S",
+        "price": 68,
+        "compareAtPrice": 84,
+        "inventoryQuantity": 93
+      },
+      {
+        "id": "90003",
+        "title": "M",
+        "sku": "AA-LEG-SUM-M",
+        "price": 68,
+        "compareAtPrice": 84,
+        "inventoryQuantity": 3
+      },
+      {
+        "id": "90004",
+        "title": "L",
+        "sku": "AA-LEG-SUM-L",
+        "price": 68,
+        "compareAtPrice": 84,
+        "inventoryQuantity": 66
+      },
+      {
+        "id": "90005",
+        "title": "XL",
+        "sku": "AA-LEG-SUM-XL",
+        "price": 70,
+        "compareAtPrice": 86,
+        "inventoryQuantity": 10
+      }
+    ]
+  },
+  {
+    "id": "8002",
+    "title": "Horizon High-Rise Leggings",
+    "handle": "horizon-high-rise-leggings",
+    "description": "Buttery-soft high-rise leggings with two side pockets sized for a phone. Flat-locked seams prevent chafing on long runs.",
+    "productType": "Leggings",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "womens",
+      "leggings",
+      "high-rise"
+    ],
+    "createdAt": "2026-02-03T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90006",
+        "title": "XS",
+        "sku": "AA-LEG-HOR-XS",
+        "price": 74,
+        "compareAtPrice": null,
+        "inventoryQuantity": 74
+      },
+      {
+        "id": "90007",
+        "title": "S",
+        "sku": "AA-LEG-HOR-S",
+        "price": 74,
+        "compareAtPrice": null,
+        "inventoryQuantity": 86
+      },
+      {
+        "id": "90008",
+        "title": "M",
+        "sku": "AA-LEG-HOR-M",
+        "price": 74,
+        "compareAtPrice": null,
+        "inventoryQuantity": 84
+      },
+      {
+        "id": "90009",
+        "title": "L",
+        "sku": "AA-LEG-HOR-L",
+        "price": 74,
+        "compareAtPrice": null,
+        "inventoryQuantity": 25
+      },
+      {
+        "id": "90010",
+        "title": "XL",
+        "sku": "AA-LEG-HOR-XL",
+        "price": 76,
+        "compareAtPrice": null,
+        "inventoryQuantity": 12
+      }
+    ]
+  },
+  {
+    "id": "8003",
+    "title": "Pulse 7/8 Leggings",
+    "handle": "pulse-7-8-leggings",
+    "description": "A 7/8-length legging in our quick-dry Pulse knit. Compressive through the thigh with a breathable mesh calf panel.",
+    "productType": "Leggings",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "womens",
+      "leggings",
+      "7-8-length"
+    ],
+    "createdAt": "2025-02-23T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90011",
+        "title": "XS",
+        "sku": "AA-LEG-PUL-XS",
+        "price": 62,
+        "compareAtPrice": null,
+        "inventoryQuantity": 29
+      },
+      {
+        "id": "90012",
+        "title": "S",
+        "sku": "AA-LEG-PUL-S",
+        "price": 62,
+        "compareAtPrice": null,
+        "inventoryQuantity": 56
+      },
+      {
+        "id": "90013",
+        "title": "M",
+        "sku": "AA-LEG-PUL-M",
+        "price": 62,
+        "compareAtPrice": null,
+        "inventoryQuantity": 66
+      },
+      {
+        "id": "90014",
+        "title": "L",
+        "sku": "AA-LEG-PUL-L",
+        "price": 62,
+        "compareAtPrice": null,
+        "inventoryQuantity": 90
+      },
+      {
+        "id": "90015",
+        "title": "XL",
+        "sku": "AA-LEG-PUL-XL",
+        "price": 64,
+        "compareAtPrice": null,
+        "inventoryQuantity": 106
+      }
+    ]
+  },
+  {
+    "id": "8004",
+    "title": "Tempo Running Shorts",
+    "handle": "tempo-running-shorts",
+    "description": "Featherweight 3-inch running shorts with a built-in liner and zip back pocket. Reflective logo for low-light miles.",
+    "productType": "Shorts",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "womens",
+      "shorts",
+      "running"
+    ],
+    "createdAt": "2025-10-22T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90016",
+        "title": "XS",
+        "sku": "AA-SHO-TEM-XS",
+        "price": 42,
+        "compareAtPrice": null,
+        "inventoryQuantity": 103
+      },
+      {
+        "id": "90017",
+        "title": "S",
+        "sku": "AA-SHO-TEM-S",
+        "price": 42,
+        "compareAtPrice": null,
+        "inventoryQuantity": 75
+      },
+      {
+        "id": "90018",
+        "title": "M",
+        "sku": "AA-SHO-TEM-M",
+        "price": 42,
+        "compareAtPrice": null,
+        "inventoryQuantity": 10
+      },
+      {
+        "id": "90019",
+        "title": "L",
+        "sku": "AA-SHO-TEM-L",
+        "price": 42,
+        "compareAtPrice": null,
+        "inventoryQuantity": 17
+      },
+      {
+        "id": "90020",
+        "title": "XL",
+        "sku": "AA-SHO-TEM-XL",
+        "price": 44,
+        "compareAtPrice": null,
+        "inventoryQuantity": 54
+      }
+    ]
+  },
+  {
+    "id": "8005",
+    "title": "Circuit Training Shorts",
+    "handle": "circuit-training-shorts",
+    "description": "7-inch training shorts in a durable stretch-woven shell. Gusseted crotch and deep pockets that hold keys through burpees.",
+    "productType": "Shorts",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "mens",
+      "shorts",
+      "training"
+    ],
+    "createdAt": "2025-08-14T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90021",
+        "title": "XS",
+        "sku": "AA-SHO-CIR-XS",
+        "price": 48,
+        "compareAtPrice": null,
+        "inventoryQuantity": 47
+      },
+      {
+        "id": "90022",
+        "title": "S",
+        "sku": "AA-SHO-CIR-S",
+        "price": 48,
+        "compareAtPrice": null,
+        "inventoryQuantity": 14
+      },
+      {
+        "id": "90023",
+        "title": "M",
+        "sku": "AA-SHO-CIR-M",
+        "price": 48,
+        "compareAtPrice": null,
+        "inventoryQuantity": 66
+      },
+      {
+        "id": "90024",
+        "title": "L",
+        "sku": "AA-SHO-CIR-L",
+        "price": 48,
+        "compareAtPrice": null,
+        "inventoryQuantity": 98
+      },
+      {
+        "id": "90025",
+        "title": "XL",
+        "sku": "AA-SHO-CIR-XL",
+        "price": 50,
+        "compareAtPrice": null,
+        "inventoryQuantity": 50
+      }
+    ]
+  },
+  {
+    "id": "8006",
+    "title": "Coastal 2-in-1 Shorts",
+    "handle": "coastal-2-in-1-shorts",
+    "description": "2-in-1 running shorts pairing a breezy outer shell with a supportive compression liner. Anti-odor finish keeps them fresh.",
+    "productType": "Shorts",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "mens",
+      "shorts",
+      "running",
+      "2-in-1"
+    ],
+    "createdAt": "2025-09-28T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90026",
+        "title": "XS",
+        "sku": "AA-SHO-COA-XS",
+        "price": 54,
+        "compareAtPrice": null,
+        "inventoryQuantity": 19
+      },
+      {
+        "id": "90027",
+        "title": "S",
+        "sku": "AA-SHO-COA-S",
+        "price": 54,
+        "compareAtPrice": null,
+        "inventoryQuantity": 56
+      },
+      {
+        "id": "90028",
+        "title": "M",
+        "sku": "AA-SHO-COA-M",
+        "price": 54,
+        "compareAtPrice": null,
+        "inventoryQuantity": 118
+      },
+      {
+        "id": "90029",
+        "title": "L",
+        "sku": "AA-SHO-COA-L",
+        "price": 54,
+        "compareAtPrice": null,
+        "inventoryQuantity": 3
+      },
+      {
+        "id": "90030",
+        "title": "XL",
+        "sku": "AA-SHO-COA-XL",
+        "price": 56,
+        "compareAtPrice": null,
+        "inventoryQuantity": 9
+      }
+    ]
+  },
+  {
+    "id": "8007",
+    "title": "Apex Sports Bra",
+    "handle": "apex-sports-bra",
+    "description": "High-impact sports bra with molded cups and adjustable straps. Locked-in support tested for running and HIIT.",
+    "productType": "Sports Bras",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "womens",
+      "sports-bras",
+      "high-impact",
+      "bestseller"
+    ],
+    "createdAt": "2025-01-20T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90031",
+        "title": "XS",
+        "sku": "AA-BRA-APX-XS",
+        "price": 52,
+        "compareAtPrice": 64,
+        "inventoryQuantity": 100
+      },
+      {
+        "id": "90032",
+        "title": "S",
+        "sku": "AA-BRA-APX-S",
+        "price": 52,
+        "compareAtPrice": 64,
+        "inventoryQuantity": 0
+      },
+      {
+        "id": "90033",
+        "title": "M",
+        "sku": "AA-BRA-APX-M",
+        "price": 52,
+        "compareAtPrice": 64,
+        "inventoryQuantity": 39
+      },
+      {
+        "id": "90034",
+        "title": "L",
+        "sku": "AA-BRA-APX-L",
+        "price": 52,
+        "compareAtPrice": 64,
+        "inventoryQuantity": 47
+      },
+      {
+        "id": "90035",
+        "title": "XL",
+        "sku": "AA-BRA-APX-XL",
+        "price": 54,
+        "compareAtPrice": 66,
+        "inventoryQuantity": 65
+      }
+    ]
+  },
+  {
+    "id": "8008",
+    "title": "Flow Strappy Bra",
+    "handle": "flow-strappy-bra",
+    "description": "Low-impact strappy bra designed for yoga and studio work. Removable pads and a soft elastic underband.",
+    "productType": "Sports Bras",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "womens",
+      "sports-bras",
+      "low-impact",
+      "yoga"
+    ],
+    "createdAt": "2025-06-28T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90036",
+        "title": "XS",
+        "sku": "AA-BRA-FLW-XS",
+        "price": 44,
+        "compareAtPrice": null,
+        "inventoryQuantity": 44
+      },
+      {
+        "id": "90037",
+        "title": "S",
+        "sku": "AA-BRA-FLW-S",
+        "price": 44,
+        "compareAtPrice": null,
+        "inventoryQuantity": 110
+      },
+      {
+        "id": "90038",
+        "title": "M",
+        "sku": "AA-BRA-FLW-M",
+        "price": 44,
+        "compareAtPrice": null,
+        "inventoryQuantity": 78
+      },
+      {
+        "id": "90039",
+        "title": "L",
+        "sku": "AA-BRA-FLW-L",
+        "price": 44,
+        "compareAtPrice": null,
+        "inventoryQuantity": 11
+      },
+      {
+        "id": "90040",
+        "title": "XL",
+        "sku": "AA-BRA-FLW-XL",
+        "price": 46,
+        "compareAtPrice": null,
+        "inventoryQuantity": 17
+      }
+    ]
+  },
+  {
+    "id": "8009",
+    "title": "Stride Racerback Bra",
+    "handle": "stride-racerback-bra",
+    "description": "Medium-impact racerback with bonded seams and perforated back panel for airflow during tempo sessions.",
+    "productType": "Sports Bras",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "womens",
+      "sports-bras",
+      "medium-impact"
+    ],
+    "createdAt": "2025-07-16T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90041",
+        "title": "XS",
+        "sku": "AA-BRA-STR-XS",
+        "price": 46,
+        "compareAtPrice": null,
+        "inventoryQuantity": 48
+      },
+      {
+        "id": "90042",
+        "title": "S",
+        "sku": "AA-BRA-STR-S",
+        "price": 46,
+        "compareAtPrice": null,
+        "inventoryQuantity": 99
+      },
+      {
+        "id": "90043",
+        "title": "M",
+        "sku": "AA-BRA-STR-M",
+        "price": 46,
+        "compareAtPrice": null,
+        "inventoryQuantity": 8
+      },
+      {
+        "id": "90044",
+        "title": "L",
+        "sku": "AA-BRA-STR-L",
+        "price": 46,
+        "compareAtPrice": null,
+        "inventoryQuantity": 95
+      },
+      {
+        "id": "90045",
+        "title": "XL",
+        "sku": "AA-BRA-STR-XL",
+        "price": 48,
+        "compareAtPrice": null,
+        "inventoryQuantity": 32
+      }
+    ]
+  },
+  {
+    "id": "8010",
+    "title": "Ridge Performance Tee",
+    "handle": "ridge-performance-tee",
+    "description": "A training tee in sweat-wicking micro-pique that never clings. Drop-tail hem stays tucked through lifts.",
+    "productType": "Tops",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "mens",
+      "tops",
+      "training"
+    ],
+    "createdAt": "2024-09-22T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90046",
+        "title": "XS",
+        "sku": "AA-TOP-RDG-XS",
+        "price": 36,
+        "compareAtPrice": null,
+        "inventoryQuantity": 59
+      },
+      {
+        "id": "90047",
+        "title": "S",
+        "sku": "AA-TOP-RDG-S",
+        "price": 36,
+        "compareAtPrice": null,
+        "inventoryQuantity": 23
+      },
+      {
+        "id": "90048",
+        "title": "M",
+        "sku": "AA-TOP-RDG-M",
+        "price": 36,
+        "compareAtPrice": null,
+        "inventoryQuantity": 34
+      },
+      {
+        "id": "90049",
+        "title": "L",
+        "sku": "AA-TOP-RDG-L",
+        "price": 36,
+        "compareAtPrice": null,
+        "inventoryQuantity": 60
+      },
+      {
+        "id": "90050",
+        "title": "XL",
+        "sku": "AA-TOP-RDG-XL",
+        "price": 38,
+        "compareAtPrice": null,
+        "inventoryQuantity": 112
+      }
+    ]
+  },
+  {
+    "id": "8011",
+    "title": "Ember Long Sleeve",
+    "handle": "ember-long-sleeve",
+    "description": "Cloud-soft long sleeve with thumbholes and a cropped boxy fit. Layers cleanly over any bra in the range.",
+    "productType": "Tops",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "womens",
+      "tops",
+      "long-sleeve"
+    ],
+    "createdAt": "2024-09-29T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90051",
+        "title": "XS",
+        "sku": "AA-TOP-EMB-XS",
+        "price": 48,
+        "compareAtPrice": null,
+        "inventoryQuantity": 62
+      },
+      {
+        "id": "90052",
+        "title": "S",
+        "sku": "AA-TOP-EMB-S",
+        "price": 48,
+        "compareAtPrice": null,
+        "inventoryQuantity": 30
+      },
+      {
+        "id": "90053",
+        "title": "M",
+        "sku": "AA-TOP-EMB-M",
+        "price": 48,
+        "compareAtPrice": null,
+        "inventoryQuantity": 110
+      },
+      {
+        "id": "90054",
+        "title": "L",
+        "sku": "AA-TOP-EMB-L",
+        "price": 48,
+        "compareAtPrice": null,
+        "inventoryQuantity": 84
+      },
+      {
+        "id": "90055",
+        "title": "XL",
+        "sku": "AA-TOP-EMB-XL",
+        "price": 50,
+        "compareAtPrice": null,
+        "inventoryQuantity": 53
+      }
+    ]
+  },
+  {
+    "id": "8012",
+    "title": "Drift Muscle Tank",
+    "handle": "drift-muscle-tank",
+    "description": "Relaxed muscle tank cut low at the arm for full range of motion. Midweight cotton-blend jersey that holds its shape.",
+    "productType": "Tops",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "mens",
+      "tops",
+      "tanks"
+    ],
+    "createdAt": "2024-09-29T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90056",
+        "title": "XS",
+        "sku": "AA-TOP-DRF-XS",
+        "price": 32,
+        "compareAtPrice": null,
+        "inventoryQuantity": 65
+      },
+      {
+        "id": "90057",
+        "title": "S",
+        "sku": "AA-TOP-DRF-S",
+        "price": 32,
+        "compareAtPrice": null,
+        "inventoryQuantity": 60
+      },
+      {
+        "id": "90058",
+        "title": "M",
+        "sku": "AA-TOP-DRF-M",
+        "price": 32,
+        "compareAtPrice": null,
+        "inventoryQuantity": 94
+      },
+      {
+        "id": "90059",
+        "title": "L",
+        "sku": "AA-TOP-DRF-L",
+        "price": 32,
+        "compareAtPrice": null,
+        "inventoryQuantity": 35
+      },
+      {
+        "id": "90060",
+        "title": "XL",
+        "sku": "AA-TOP-DRF-XL",
+        "price": 34,
+        "compareAtPrice": null,
+        "inventoryQuantity": 38
+      }
+    ]
+  },
+  {
+    "id": "8013",
+    "title": "Lift Crop Tank",
+    "handle": "lift-crop-tank",
+    "description": "Cropped tank in ribbed stretch jersey with a scooped neckline. Pairs with high-rise leggings for a clean line.",
+    "productType": "Tops",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "womens",
+      "tops",
+      "tanks",
+      "crop"
+    ],
+    "createdAt": "2025-07-04T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90061",
+        "title": "XS",
+        "sku": "AA-TOP-LFT-XS",
+        "price": 34,
+        "compareAtPrice": null,
+        "inventoryQuantity": 6
+      },
+      {
+        "id": "90062",
+        "title": "S",
+        "sku": "AA-TOP-LFT-S",
+        "price": 34,
+        "compareAtPrice": null,
+        "inventoryQuantity": 108
+      },
+      {
+        "id": "90063",
+        "title": "M",
+        "sku": "AA-TOP-LFT-M",
+        "price": 34,
+        "compareAtPrice": null,
+        "inventoryQuantity": 26
+      },
+      {
+        "id": "90064",
+        "title": "L",
+        "sku": "AA-TOP-LFT-L",
+        "price": 34,
+        "compareAtPrice": null,
+        "inventoryQuantity": 8
+      },
+      {
+        "id": "90065",
+        "title": "XL",
+        "sku": "AA-TOP-LFT-XL",
+        "price": 36,
+        "compareAtPrice": null,
+        "inventoryQuantity": 53
+      }
+    ]
+  },
+  {
+    "id": "8014",
+    "title": "Basecamp Hoodie",
+    "handle": "basecamp-hoodie",
+    "description": "Heavyweight fleece hoodie with a double-lined hood and ribbed side panels. The warm-up layer that lives on repeat.",
+    "productType": "Hoodies",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "unisex",
+      "hoodies",
+      "bestseller"
+    ],
+    "createdAt": "2026-03-06T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90066",
+        "title": "XS",
+        "sku": "AA-HOD-BSC-XS",
+        "price": 78,
+        "compareAtPrice": 92,
+        "inventoryQuantity": 1
+      },
+      {
+        "id": "90067",
+        "title": "S",
+        "sku": "AA-HOD-BSC-S",
+        "price": 78,
+        "compareAtPrice": 92,
+        "inventoryQuantity": 41
+      },
+      {
+        "id": "90068",
+        "title": "M",
+        "sku": "AA-HOD-BSC-M",
+        "price": 78,
+        "compareAtPrice": 92,
+        "inventoryQuantity": 114
+      },
+      {
+        "id": "90069",
+        "title": "L",
+        "sku": "AA-HOD-BSC-L",
+        "price": 78,
+        "compareAtPrice": 92,
+        "inventoryQuantity": 74
+      },
+      {
+        "id": "90070",
+        "title": "XL",
+        "sku": "AA-HOD-BSC-XL",
+        "price": 80,
+        "compareAtPrice": 94,
+        "inventoryQuantity": 34
+      }
+    ]
+  },
+  {
+    "id": "8015",
+    "title": "Alpine Zip Hoodie",
+    "handle": "alpine-zip-hoodie",
+    "description": "Full-zip hoodie in brushed tech fleece with zippered hand pockets and a media loop. Travels from gym to street.",
+    "productType": "Hoodies",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "unisex",
+      "hoodies",
+      "full-zip"
+    ],
+    "createdAt": "2025-12-19T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90071",
+        "title": "XS",
+        "sku": "AA-HOD-ALP-XS",
+        "price": 84,
+        "compareAtPrice": null,
+        "inventoryQuantity": 94
+      },
+      {
+        "id": "90072",
+        "title": "S",
+        "sku": "AA-HOD-ALP-S",
+        "price": 84,
+        "compareAtPrice": null,
+        "inventoryQuantity": 90
+      },
+      {
+        "id": "90073",
+        "title": "M",
+        "sku": "AA-HOD-ALP-M",
+        "price": 84,
+        "compareAtPrice": null,
+        "inventoryQuantity": 71
+      },
+      {
+        "id": "90074",
+        "title": "L",
+        "sku": "AA-HOD-ALP-L",
+        "price": 84,
+        "compareAtPrice": null,
+        "inventoryQuantity": 12
+      },
+      {
+        "id": "90075",
+        "title": "XL",
+        "sku": "AA-HOD-ALP-XL",
+        "price": 86,
+        "compareAtPrice": null,
+        "inventoryQuantity": 38
+      }
+    ]
+  },
+  {
+    "id": "8016",
+    "title": "Glide Joggers",
+    "handle": "glide-joggers",
+    "description": "Tapered joggers in a four-way stretch French terry. Zip ankle gussets fit over trainers without bunching.",
+    "productType": "Joggers",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "mens",
+      "joggers",
+      "tapered"
+    ],
+    "createdAt": "2025-09-03T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90076",
+        "title": "XS",
+        "sku": "AA-JOG-GLD-XS",
+        "price": 72,
+        "compareAtPrice": null,
+        "inventoryQuantity": 103
+      },
+      {
+        "id": "90077",
+        "title": "S",
+        "sku": "AA-JOG-GLD-S",
+        "price": 72,
+        "compareAtPrice": null,
+        "inventoryQuantity": 113
+      },
+      {
+        "id": "90078",
+        "title": "M",
+        "sku": "AA-JOG-GLD-M",
+        "price": 72,
+        "compareAtPrice": null,
+        "inventoryQuantity": 80
+      },
+      {
+        "id": "90079",
+        "title": "L",
+        "sku": "AA-JOG-GLD-L",
+        "price": 72,
+        "compareAtPrice": null,
+        "inventoryQuantity": 90
+      },
+      {
+        "id": "90080",
+        "title": "XL",
+        "sku": "AA-JOG-GLD-XL",
+        "price": 74,
+        "compareAtPrice": null,
+        "inventoryQuantity": 32
+      }
+    ]
+  },
+  {
+    "id": "8017",
+    "title": "Restore Joggers",
+    "handle": "restore-joggers",
+    "description": "Relaxed recovery joggers in a modal blend so soft they double as sleepwear. Elastic waist with a flat drawcord.",
+    "productType": "Joggers",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "womens",
+      "joggers",
+      "lounge"
+    ],
+    "createdAt": "2026-02-22T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90081",
+        "title": "XS",
+        "sku": "AA-JOG-RST-XS",
+        "price": 68,
+        "compareAtPrice": null,
+        "inventoryQuantity": 9
+      },
+      {
+        "id": "90082",
+        "title": "S",
+        "sku": "AA-JOG-RST-S",
+        "price": 68,
+        "compareAtPrice": null,
+        "inventoryQuantity": 112
+      },
+      {
+        "id": "90083",
+        "title": "M",
+        "sku": "AA-JOG-RST-M",
+        "price": 68,
+        "compareAtPrice": null,
+        "inventoryQuantity": 4
+      },
+      {
+        "id": "90084",
+        "title": "L",
+        "sku": "AA-JOG-RST-L",
+        "price": 68,
+        "compareAtPrice": null,
+        "inventoryQuantity": 112
+      },
+      {
+        "id": "90085",
+        "title": "XL",
+        "sku": "AA-JOG-RST-XL",
+        "price": 70,
+        "compareAtPrice": null,
+        "inventoryQuantity": 80
+      }
+    ]
+  },
+  {
+    "id": "8018",
+    "title": "Windrunner Jacket",
+    "handle": "windrunner-jacket",
+    "description": "Packable windproof shell weighing under 120 grams. Stows into its own chest pocket and clips onto any bag.",
+    "productType": "Jackets",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "unisex",
+      "jackets",
+      "running",
+      "windproof"
+    ],
+    "createdAt": "2025-10-10T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90086",
+        "title": "XS",
+        "sku": "AA-JKT-WND-XS",
+        "price": 96,
+        "compareAtPrice": 118,
+        "inventoryQuantity": 64
+      },
+      {
+        "id": "90087",
+        "title": "S",
+        "sku": "AA-JKT-WND-S",
+        "price": 96,
+        "compareAtPrice": 118,
+        "inventoryQuantity": 39
+      },
+      {
+        "id": "90088",
+        "title": "M",
+        "sku": "AA-JKT-WND-M",
+        "price": 96,
+        "compareAtPrice": 118,
+        "inventoryQuantity": 14
+      },
+      {
+        "id": "90089",
+        "title": "L",
+        "sku": "AA-JKT-WND-L",
+        "price": 96,
+        "compareAtPrice": 118,
+        "inventoryQuantity": 4
+      },
+      {
+        "id": "90090",
+        "title": "XL",
+        "sku": "AA-JKT-WND-XL",
+        "price": 98,
+        "compareAtPrice": 120,
+        "inventoryQuantity": 0
+      }
+    ]
+  },
+  {
+    "id": "8019",
+    "title": "Thermo Trail Vest",
+    "handle": "thermo-trail-vest",
+    "description": "Lightly insulated vest with a DWR finish for damp trailheads. Core warmth without restricting the arms.",
+    "productType": "Jackets",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "unisex",
+      "jackets",
+      "vests",
+      "insulated"
+    ],
+    "createdAt": "2025-05-27T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90091",
+        "title": "XS",
+        "sku": "AA-JKT-THV-XS",
+        "price": 88,
+        "compareAtPrice": null,
+        "inventoryQuantity": 13
+      },
+      {
+        "id": "90092",
+        "title": "S",
+        "sku": "AA-JKT-THV-S",
+        "price": 88,
+        "compareAtPrice": null,
+        "inventoryQuantity": 74
+      },
+      {
+        "id": "90093",
+        "title": "M",
+        "sku": "AA-JKT-THV-M",
+        "price": 88,
+        "compareAtPrice": null,
+        "inventoryQuantity": 76
+      },
+      {
+        "id": "90094",
+        "title": "L",
+        "sku": "AA-JKT-THV-L",
+        "price": 88,
+        "compareAtPrice": null,
+        "inventoryQuantity": 89
+      },
+      {
+        "id": "90095",
+        "title": "XL",
+        "sku": "AA-JKT-THV-XL",
+        "price": 90,
+        "compareAtPrice": null,
+        "inventoryQuantity": 15
+      }
+    ]
+  },
+  {
+    "id": "8020",
+    "title": "Momentum Track Pants",
+    "handle": "momentum-track-pants",
+    "description": "Retro track pants in recycled ripstop with snap ankles and a mesh lining. Warm-up official, podium optional.",
+    "productType": "Joggers",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "mens",
+      "joggers",
+      "track"
+    ],
+    "createdAt": "2025-05-09T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90096",
+        "title": "XS",
+        "sku": "AA-JOG-MOM-XS",
+        "price": 76,
+        "compareAtPrice": null,
+        "inventoryQuantity": 57
+      },
+      {
+        "id": "90097",
+        "title": "S",
+        "sku": "AA-JOG-MOM-S",
+        "price": 76,
+        "compareAtPrice": null,
+        "inventoryQuantity": 96
+      },
+      {
+        "id": "90098",
+        "title": "M",
+        "sku": "AA-JOG-MOM-M",
+        "price": 76,
+        "compareAtPrice": null,
+        "inventoryQuantity": 113
+      },
+      {
+        "id": "90099",
+        "title": "L",
+        "sku": "AA-JOG-MOM-L",
+        "price": 76,
+        "compareAtPrice": null,
+        "inventoryQuantity": 65
+      },
+      {
+        "id": "90100",
+        "title": "XL",
+        "sku": "AA-JOG-MOM-XL",
+        "price": 78,
+        "compareAtPrice": null,
+        "inventoryQuantity": 4
+      }
+    ]
+  },
+  {
+    "id": "8021",
+    "title": "Aurora Water Bottle",
+    "handle": "aurora-water-bottle",
+    "description": "Double-wall insulated steel bottle that keeps drinks cold for 24 hours. Leakproof flip lid with a carry loop.",
+    "productType": "Accessories",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "accessories",
+      "hydration",
+      "bestseller"
+    ],
+    "createdAt": "2024-12-04T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90101",
+        "title": "18 oz",
+        "sku": "AA-ACC-BTL-18OZ",
+        "price": 28,
+        "compareAtPrice": null,
+        "inventoryQuantity": 9
+      },
+      {
+        "id": "90102",
+        "title": "26 oz",
+        "sku": "AA-ACC-BTL-26OZ",
+        "price": 28,
+        "compareAtPrice": null,
+        "inventoryQuantity": 31
+      }
+    ]
+  },
+  {
+    "id": "8022",
+    "title": "Eclipse Yoga Mat",
+    "handle": "eclipse-yoga-mat",
+    "description": "5 mm natural rubber mat with a moisture-grip top layer. Alignment lines guide hands and feet through every flow.",
+    "productType": "Accessories",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "accessories",
+      "yoga",
+      "mats"
+    ],
+    "createdAt": "2025-08-13T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90103",
+        "title": "Standard",
+        "sku": "AA-ACC-MAT-STANDARD",
+        "price": 58,
+        "compareAtPrice": null,
+        "inventoryQuantity": 94
+      },
+      {
+        "id": "90104",
+        "title": "Long",
+        "sku": "AA-ACC-MAT-LONG",
+        "price": 58,
+        "compareAtPrice": null,
+        "inventoryQuantity": 66
+      }
+    ]
+  },
+  {
+    "id": "8023",
+    "title": "Grip Training Gloves",
+    "handle": "grip-training-gloves",
+    "description": "Padded training gloves with wrist wraps and silicone palm grip. Machine washable, smell-resistant.",
+    "productType": "Accessories",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "accessories",
+      "gloves",
+      "training"
+    ],
+    "createdAt": "2025-09-17T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90105",
+        "title": "S",
+        "sku": "AA-ACC-GLV-S",
+        "price": 26,
+        "compareAtPrice": null,
+        "inventoryQuantity": 108
+      },
+      {
+        "id": "90106",
+        "title": "M",
+        "sku": "AA-ACC-GLV-M",
+        "price": 26,
+        "compareAtPrice": null,
+        "inventoryQuantity": 108
+      },
+      {
+        "id": "90107",
+        "title": "L",
+        "sku": "AA-ACC-GLV-L",
+        "price": 26,
+        "compareAtPrice": null,
+        "inventoryQuantity": 111
+      }
+    ]
+  },
+  {
+    "id": "8024",
+    "title": "Velocity Running Cap",
+    "handle": "velocity-running-cap",
+    "description": "Five-panel running cap in quick-dry ripstop with a reflective brim and adjustable strap. Folds into a pocket.",
+    "productType": "Accessories",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "accessories",
+      "caps",
+      "running"
+    ],
+    "createdAt": "2025-12-04T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90108",
+        "title": "One Size",
+        "sku": "AA-ACC-CAP-ONESIZE",
+        "price": 24,
+        "compareAtPrice": null,
+        "inventoryQuantity": 25
+      }
+    ]
+  },
+  {
+    "id": "8025",
+    "title": "Flux Headband Set",
+    "handle": "flux-headband-set",
+    "description": "Three-pack of no-slip headbands in mixed widths. Silicone backing stays put through sprints and inversions.",
+    "productType": "Accessories",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "accessories",
+      "headbands"
+    ],
+    "createdAt": "2025-01-04T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90109",
+        "title": "One Size",
+        "sku": "AA-ACC-HBD-ONESIZE",
+        "price": 18,
+        "compareAtPrice": null,
+        "inventoryQuantity": 28
+      }
+    ]
+  },
+  {
+    "id": "8026",
+    "title": "Charge Crew Socks",
+    "handle": "charge-crew-socks",
+    "description": "Cushioned crew socks with arch compression and a seamless toe. Sold as a two-pack.",
+    "productType": "Accessories",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "accessories",
+      "socks"
+    ],
+    "createdAt": "2024-12-05T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90110",
+        "title": "S/M",
+        "sku": "AA-ACC-SCK-SM",
+        "price": 16,
+        "compareAtPrice": null,
+        "inventoryQuantity": 41
+      },
+      {
+        "id": "90111",
+        "title": "L/XL",
+        "sku": "AA-ACC-SCK-LXL",
+        "price": 16,
+        "compareAtPrice": null,
+        "inventoryQuantity": 21
+      }
+    ]
+  },
+  {
+    "id": "8027",
+    "title": "Meridian Duffel Bag",
+    "handle": "meridian-duffel-bag",
+    "description": "40 L gym duffel with a ventilated shoe tunnel, laptop sleeve and water-resistant base. Carry-on friendly.",
+    "productType": "Accessories",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "accessories",
+      "bags",
+      "duffel"
+    ],
+    "createdAt": "2025-01-01T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90112",
+        "title": "One Size",
+        "sku": "AA-ACC-DUF-ONESIZE",
+        "price": 92,
+        "compareAtPrice": null,
+        "inventoryQuantity": 34
+      }
+    ]
+  },
+  {
+    "id": "8028",
+    "title": "Kinetic Resistance Bands",
+    "handle": "kinetic-resistance-bands",
+    "description": "Fabric resistance band set in three tensions with a carry pouch. Non-rolling weave rated for 150k stretches.",
+    "productType": "Accessories",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "accessories",
+      "bands",
+      "training"
+    ],
+    "createdAt": "2024-12-09T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90113",
+        "title": "Light Set",
+        "sku": "AA-ACC-BND-LIGHTSET",
+        "price": 32,
+        "compareAtPrice": null,
+        "inventoryQuantity": 93
+      },
+      {
+        "id": "90114",
+        "title": "Heavy Set",
+        "sku": "AA-ACC-BND-HEAVYSET",
+        "price": 32,
+        "compareAtPrice": null,
+        "inventoryQuantity": 119
+      }
+    ]
+  },
+  {
+    "id": "8029",
+    "title": "Recovery Foam Roller",
+    "handle": "recovery-foam-roller",
+    "description": "Medium-density foam roller with a textured surface for targeted release. Hollow core keeps it under 700 grams.",
+    "productType": "Accessories",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "accessories",
+      "recovery"
+    ],
+    "createdAt": "2025-10-20T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90115",
+        "title": "One Size",
+        "sku": "AA-ACC-ROL-ONESIZE",
+        "price": 38,
+        "compareAtPrice": null,
+        "inventoryQuantity": 45
+      }
+    ]
+  },
+  {
+    "id": "8030",
+    "title": "Trailhead Gaiter",
+    "handle": "trailhead-gaiter",
+    "description": "Multi-use neck gaiter in UPF 50 stretch knit. Wear it as a headband, mask or wristband on dusty trails.",
+    "productType": "Accessories",
+    "vendor": "Aurora Athletics",
+    "status": "active",
+    "tags": [
+      "accessories",
+      "gaiters",
+      "trail"
+    ],
+    "createdAt": "2025-10-23T12:00:00.000Z",
+    "variants": [
+      {
+        "id": "90116",
+        "title": "One Size",
+        "sku": "AA-ACC-GTR-ONESIZE",
+        "price": 20,
+        "compareAtPrice": null,
+        "inventoryQuantity": 75
+      }
+    ]
+  }
+]

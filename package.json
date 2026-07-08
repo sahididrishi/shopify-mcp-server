@@ -1,0 +1,46 @@
+{
+  "name": "shopify-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server that connects Claude to a Shopify store: products, orders, customers, inventory, and sales analytics. Ships with a full demo store so it works out of the box.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "shopify",
+    "claude",
+    "ai",
+    "ecommerce"
+  ],
+  "author": "Sahid Idrishi",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "shopify-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/copy-fixtures.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "try-it": "tsx scripts/try-it.ts",
+    "generate-fixtures": "tsx scripts/generate-fixtures.ts",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^4.0.0"
+  }
+}
