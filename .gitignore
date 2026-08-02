@@ -5,3 +5,6 @@ coverage/
 .env.local
 *.log
 .DS_Store
+
+# local-only portfolio notes
+UPWORK.md
