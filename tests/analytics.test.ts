@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { computeSalesSummary } from "../src/analytics.js";
-import type { Order } from "../src/types.js";
+import { computeSalesSummary, computeTopCustomers } from "../src/analytics.js";
+import type { Order, OrderCustomerRef } from "../src/types.js";
 
 function makeOrder(overrides: Partial<Order> & { id: string }): Order {
   return {
@@ -116,5 +116,58 @@ describe("computeSalesSummary", () => {
   it("propagates the truncated flag", () => {
     expect(computeSalesSummary([], WINDOW, { truncated: true }).truncated).toBe(true);
     expect(computeSalesSummary([], WINDOW).truncated).toBe(false);
+  });
+});
+
+describe("computeTopCustomers", () => {
+  const alice: OrderCustomerRef = { id: "c1", name: "Alice Ray", email: "alice@example.com" };
+  const bob: OrderCustomerRef = { id: "c2", name: "Bob Lund", email: "bob@example.com" };
+
+  it("returns no customers for an empty window", () => {
+    const summary = computeTopCustomers([], WINDOW);
+    expect(summary.customers).toEqual([]);
+    expect(summary.guestOrderCount).toBe(0);
+  });
+
+  it("ranks by net spend with refunds subtracted", () => {
+    const orders = [
+      makeOrder({ id: "1", customer: alice, total: 100 }),
+      makeOrder({ id: "2", customer: bob, total: 150, totalRefunded: 90 }),
+      makeOrder({ id: "3", customer: bob, total: 30 }),
+    ];
+    const summary = computeTopCustomers(orders, WINDOW);
+    expect(summary.customers).toHaveLength(2);
+    expect(summary.customers[0]).toMatchObject({ customerId: "c1", netSpent: 100, orderCount: 1 });
+    expect(summary.customers[1]).toMatchObject({ customerId: "c2", netSpent: 90, orderCount: 2 });
+  });
+
+  it("excludes cancelled orders and counts guest checkouts separately", () => {
+    const orders = [
+      makeOrder({ id: "1", customer: alice, total: 40 }),
+      makeOrder({ id: "2", customer: alice, total: 999, cancelledAt: "2026-06-16T00:00:00.000Z" }),
+      makeOrder({ id: "3", customer: null, total: 75 }),
+    ];
+    const summary = computeTopCustomers(orders, WINDOW);
+    expect(summary.customers[0]).toMatchObject({ netSpent: 40, orderCount: 1 });
+    expect(summary.guestOrderCount).toBe(1);
+  });
+
+  it("tracks the most recent order date per customer", () => {
+    const orders = [
+      makeOrder({ id: "1", customer: alice, createdAt: "2026-06-20T10:00:00.000Z" }),
+      makeOrder({ id: "2", customer: alice, createdAt: "2026-06-05T10:00:00.000Z" }),
+    ];
+    const summary = computeTopCustomers(orders, WINDOW);
+    expect(summary.customers[0].lastOrderAt).toBe("2026-06-20T10:00:00.000Z");
+  });
+
+  it("applies the limit after ranking", () => {
+    const orders = [
+      makeOrder({ id: "1", customer: alice, total: 10 }),
+      makeOrder({ id: "2", customer: bob, total: 500 }),
+    ];
+    const summary = computeTopCustomers(orders, WINDOW, { limit: 1 });
+    expect(summary.customers).toHaveLength(1);
+    expect(summary.customers[0].customerId).toBe("c2");
   });
 });

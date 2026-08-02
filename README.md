@@ -19,12 +19,13 @@ It ships with a complete **demo store** (Aurora Athletics — 30 products, 60 or
 | `get_customer` | read | Customer profile by email or id, with lifetime stats and recent order history |
 | `update_inventory` | **write** | Set a variant's available quantity (absolute); reports previous value so changes are reversible |
 | `sales_summary` | read | Revenue, refunds, order count, AOV, best day and top products for any date range |
+| `top_customers` | read | Customers ranked by net spend for any date range, with order counts and last-order dates |
 
 ## Architecture
 
 ```mermaid
 flowchart LR
-    Claude["Claude Code /<br/>Claude Desktop"] <-- "MCP over stdio" --> Server["shopify-mcp-server<br/>(7 tools, zod-validated)"]
+    Claude["Claude Code /<br/>Claude Desktop"] <-- "MCP over stdio" --> Server["shopify-mcp-server<br/>(8 tools, zod-validated)"]
     Server --> Iface{{"StoreBackend<br/>interface"}}
     Iface --> Demo["DemoBackend<br/>bundled fixtures,<br/>in-memory writes"]
     Iface --> Live["ShopifyBackend<br/>rate-limit aware<br/>REST client"]

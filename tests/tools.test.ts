@@ -25,7 +25,7 @@ beforeAll(async () => {
 });
 
 describe("tool registration", () => {
-  it("exposes all seven tools with schemas", async () => {
+  it("exposes all eight tools with schemas", async () => {
     const { tools } = await client.listTools();
     const names = tools.map((t) => t.name).sort();
     expect(names).toEqual([
@@ -35,6 +35,7 @@ describe("tool registration", () => {
       "list_orders",
       "sales_summary",
       "search_products",
+      "top_customers",
       "update_inventory",
     ]);
     for (const tool of tools) {
@@ -195,6 +196,49 @@ describe("sales_summary", () => {
 
   it("rejects an inverted date range", async () => {
     const { isError, text } = await callTool("sales_summary", {
+      start_date: "2026-07-01",
+      end_date: "2026-06-01",
+    });
+    expect(isError).toBe(true);
+    expect(text).toContain("start_date must not be after end_date");
+  });
+});
+
+describe("top_customers", () => {
+  it("ranks customers by net spend over the full fixture window", async () => {
+    // Ground truth computed independently from the fixture JSON.
+    const { text, isError } = await callTool("top_customers", {
+      start_date: "2026-04-01",
+      end_date: "2026-07-08",
+    });
+    expect(isError).toBe(false);
+    expect(text).toContain("| 1 | Sofia Ramirez | sofia.ramirez@example.com | 4 | $1,162.08 |");
+    expect(text).toContain("| 2 | Caleb Whitfield | caleb.whitfield@example.com | 3 | $804.85 |");
+    expect(text).toContain("| 3 | Ruby Ashworth | ruby.ashworth@example.com | 3 | $764.64 |");
+    expect(text).toContain("2026-07-01"); // Sofia's last order date
+  });
+
+  it("respects the limit parameter", async () => {
+    const { text } = await callTool("top_customers", {
+      start_date: "2026-04-01",
+      end_date: "2026-07-08",
+      limit: 3,
+    });
+    expect(text).toMatch(/^\| 3 \| Ruby Ashworth \|/m);
+    expect(text).not.toMatch(/^\| 4 \|/m);
+  });
+
+  it("handles an empty window", async () => {
+    const { text, isError } = await callTool("top_customers", {
+      start_date: "2020-01-01",
+      end_date: "2020-01-31",
+    });
+    expect(isError).toBe(false);
+    expect(text).toContain("No customer orders in this period.");
+  });
+
+  it("rejects an inverted date range", async () => {
+    const { isError, text } = await callTool("top_customers", {
       start_date: "2026-07-01",
       end_date: "2026-06-01",
     });

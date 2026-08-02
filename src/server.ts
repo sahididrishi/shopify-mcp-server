@@ -1,7 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import type { CallToolResult } from "@modelcontextprotocol/sdk/types.js";
 import { z } from "zod";
-import { computeSalesSummary } from "./analytics.js";
+import { computeSalesSummary, computeTopCustomers } from "./analytics.js";
 import { BackendError, type StoreBackend } from "./backend.js";
 import {
   formatCustomer,
@@ -10,6 +10,7 @@ import {
   formatProduct,
   formatProductLine,
   formatSalesSummary,
+  formatTopCustomers,
 } from "./format.js";
 
 export const SERVER_NAME = "shopify-mcp-server";
@@ -300,6 +301,49 @@ export function createServer(backend: StoreBackend): McpServer {
         // to the store currency so formatting stays correct.
         summary.currency = orders[0]?.currency ?? currency;
         return text(formatSalesSummary(summary));
+      }),
+  );
+
+  server.registerTool(
+    "top_customers",
+    {
+      title: "Top customers",
+      description:
+        "Rank customers by net spend (order totals minus refunds) over a date range, " +
+        "with order count and last order date for each. Cancelled orders are excluded " +
+        "and guest checkouts are reported separately. Defaults to the last 365 days.",
+      inputSchema: {
+        start_date: dateInput("Range start (YYYY-MM-DD). Default: 365 days ago.").optional(),
+        end_date: dateInput("Range end (YYYY-MM-DD, inclusive). Default: today.").optional(),
+        limit: z
+          .number()
+          .int()
+          .min(1)
+          .max(50)
+          .optional()
+          .describe("Maximum customers to return (default 10)"),
+      },
+    },
+    ({ start_date, end_date, limit }) =>
+      run(async () => {
+        const end = end_date !== undefined ? toEndOfDay(end_date) : new Date().toISOString();
+        const start =
+          start_date !== undefined
+            ? toStartOfDay(start_date)
+            : new Date(new Date(end).getTime() - 365 * 24 * 60 * 60 * 1000).toISOString();
+        if (new Date(start).getTime() > new Date(end).getTime()) {
+          return toolError("start_date must not be after end_date.");
+        }
+        const [{ orders, truncated }, currency] = await Promise.all([
+          backend.ordersBetween(start, end),
+          backend.getStoreCurrency(),
+        ]);
+        const summary = computeTopCustomers(orders, { start, end }, {
+          limit: limit ?? 10,
+          truncated,
+        });
+        summary.currency = orders[0]?.currency ?? currency;
+        return text(formatTopCustomers(summary));
       }),
   );
 

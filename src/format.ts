@@ -1,4 +1,4 @@
-import type { SalesSummary } from "./analytics.js";
+import type { SalesSummary, TopCustomersSummary } from "./analytics.js";
 import type { CustomerProfile, Order, Product } from "./types.js";
 
 /** "1234.5" -> "$1,234.50" (uses the order/store currency code). */
@@ -174,6 +174,41 @@ export function formatSalesSummary(summary: SalesSummary): string {
     summary.topProducts.forEach((p, i) => {
       lines.push(`| ${i + 1} | ${p.title} | ${p.units} | ${money(p.revenue, c)} |`);
     });
+  }
+  if (summary.truncated) {
+    lines.push(
+      "",
+      "Note: the order window hit the API pagination cap, so these figures may undercount. Narrow the date range for exact numbers.",
+    );
+  }
+  return lines.join("\n");
+}
+
+export function formatTopCustomers(summary: TopCustomersSummary): string {
+  const c = summary.currency;
+  const lines = [
+    `# Top customers by net spend: ${shortDate(summary.start)} to ${shortDate(summary.end)}`,
+    "",
+  ];
+  if (summary.customers.length === 0) {
+    lines.push("No customer orders in this period.");
+  } else {
+    lines.push(
+      "| # | Customer | Email | Orders | Net spent | Last order |",
+      "|---|---|---|---|---|---|",
+    );
+    summary.customers.forEach((cust, i) => {
+      lines.push(
+        `| ${i + 1} | ${cust.name} | ${cust.email} | ${cust.orderCount} | ${money(cust.netSpent, c)} | ${shortDate(cust.lastOrderAt)} |`,
+      );
+    });
+    lines.push("", "Use get_customer with an email for the full profile and order history.");
+  }
+  if (summary.guestOrderCount > 0) {
+    lines.push(
+      "",
+      `${summary.guestOrderCount} guest checkout order(s) in this period could not be attributed to a customer.`,
+    );
   }
   if (summary.truncated) {
     lines.push(

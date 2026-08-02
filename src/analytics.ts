@@ -31,6 +31,30 @@ export interface SalesSummary {
   truncated: boolean;
 }
 
+export interface TopCustomer {
+  customerId: string;
+  name: string;
+  email: string;
+  /** Orders placed in the window, excluding cancelled ones. */
+  orderCount: number;
+  /** Sum of order totals minus refunds. */
+  netSpent: number;
+  /** createdAt of the customer's most recent order in the window. */
+  lastOrderAt: string;
+}
+
+export interface TopCustomersSummary {
+  start: string;
+  end: string;
+  currency: string;
+  /** Customers ranked by net spend, best first. */
+  customers: TopCustomer[];
+  /** Non-cancelled orders with no customer attached (guest checkouts). */
+  guestOrderCount: number;
+  /** True if the backend could not return the complete order window. */
+  truncated: boolean;
+}
+
 const round2 = (n: number): number => Math.round(n * 100) / 100;
 
 /**
@@ -99,6 +123,56 @@ export function computeSalesSummary(
     averageOrderValue: active.length > 0 ? round2(grossRevenue / active.length) : 0,
     topProducts,
     bestDay,
+    truncated: options.truncated ?? false,
+  };
+}
+
+/**
+ * Ranks customers by net spend (order totals minus refunds) over a window of
+ * orders. Cancelled orders are excluded entirely; guest checkouts cannot be
+ * attributed to a customer and are only reported as a count.
+ */
+export function computeTopCustomers(
+  orders: Order[],
+  window: { start: string; end: string },
+  options: { limit?: number; truncated?: boolean } = {},
+): TopCustomersSummary {
+  const limit = options.limit ?? 10;
+  const active = orders.filter((o) => o.cancelledAt === null);
+
+  let guestOrderCount = 0;
+  const byCustomer = new Map<string, TopCustomer>();
+
+  for (const order of active) {
+    if (order.customer === null) {
+      guestOrderCount++;
+      continue;
+    }
+    const entry = byCustomer.get(order.customer.id) ?? {
+      customerId: order.customer.id,
+      name: order.customer.name,
+      email: order.customer.email,
+      orderCount: 0,
+      netSpent: 0,
+      lastOrderAt: order.createdAt,
+    };
+    entry.orderCount++;
+    entry.netSpent += order.total - order.totalRefunded;
+    if (order.createdAt > entry.lastOrderAt) entry.lastOrderAt = order.createdAt;
+    byCustomer.set(order.customer.id, entry);
+  }
+
+  const customers = [...byCustomer.values()]
+    .sort((a, b) => b.netSpent - a.netSpent || b.orderCount - a.orderCount)
+    .slice(0, limit)
+    .map((c) => ({ ...c, netSpent: round2(c.netSpent) }));
+
+  return {
+    start: window.start,
+    end: window.end,
+    currency: active[0]?.currency ?? orders[0]?.currency ?? "USD",
+    customers,
+    guestOrderCount,
     truncated: options.truncated ?? false,
   };
 }
