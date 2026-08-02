@@ -38,7 +38,7 @@ Both backends implement one `StoreBackend` interface, so every tool — includin
 Requires Node.js 20+.
 
 ```bash
-git clone <this-repo> && cd shopify-mcp-server
+git clone https://github.com/sahididrishi/shopify-mcp-server.git && cd shopify-mcp-server
 npm install
 npm run build
 ```
